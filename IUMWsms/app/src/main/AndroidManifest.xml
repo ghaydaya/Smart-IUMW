@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.howkum.iumwsms" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".StartPage"
+            android:label="@string/title_activity_start_page" >
+        </activity>
+        <activity
+            android:name=".Student_home"
+            android:label="@string/title_activity_student_home" >
+        </activity>
+        <activity
+            android:name=".SelectSemister"
+            android:label="@string/title_activity_select_semister" >
+        </activity>
+        <activity
+            android:name=".AddSubject"
+            android:label="@string/title_activity_add_subject" >
+        </activity>
+        <activity
+            android:name=".AdminHome"
+            android:label="@string/title_activity_admin_home" >
+        </activity>
+        <activity
+            android:name=".PendingNewStudent"
+            android:label="@string/title_activity_pending_new_student" >
+        </activity>
+        <activity
+            android:name=".RemoveStudent"
+            android:label="@string/title_activity_remove_student" >
+        </activity>
+        <activity
+            android:name=".AddSemester"
+            android:label="@string/title_activity_add_semester" >
+        </activity>
+        <activity
+            android:name=".ProgramLeaderHome"
+            android:label="@string/title_activity_program_leader_home" >
+        </activity>
+        <activity
+            android:name=".EditSubDetails"
+            android:label="@string/title_activity_edit_sub_details" >
+        </activity>
+        <activity
+            android:name=".SeeSubDetail"
+            android:label="@string/title_activity_see_sub_detail" >
+        </activity>
+        <activity
+            android:name=".DeanHome"
+            android:label="@string/title_activity_dean_home" >
+        </activity>
+        <activity
+            android:name=".ApproveRegistration"
+            android:label="@string/title_activity_approve_registration" >
+        </activity>
+        <activity
+            android:name=".SignUpRoleSelction"
+            android:label="@string/title_activity_sign_up_role_selction" >
+        </activity>
+        <activity
+            android:name=".StudentSignUpPage"
+            android:label="@string/title_activity_student_sign_up_page" >
+        </activity>
+        <activity
+            android:name=".SignUp"
+            android:label="@string/title_activity_sign_up" >
+        </activity>
+        <activity
+            android:name=".SeeStudentDetails"
+            android:label="@string/title_activity_see_student_details" >
+        </activity>
+        <activity
+            android:name=".SeeOneFull"
+            android:label="@string/title_activity_see_one_full" >
+        </activity>
+        <activity
+            android:name=".CoursesOfXs"
+            android:label="@string/title_activity_courses_of_xs" >
+        </activity>
+        <activity
+            android:name=".EditOneSub"
+            android:label="@string/title_activity_edit_one_sub" >
+        </activity>
+        <activity
+            android:name=".RegistryHome"
+            android:label="@string/title_activity_registry_home" >
+        </activity>
+        <activity
+            android:name=".StartUpRoleSelect"
+            android:label="@string/title_activity_start_up_role_select" >
+        </activity>
+        <activity
+            android:name=".UserSignUp"
+            android:label="@string/title_activity_user_sign_up" >
+        </activity>
+    </application>
+
+</manifest>

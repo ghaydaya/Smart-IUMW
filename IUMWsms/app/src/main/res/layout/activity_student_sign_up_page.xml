@@ -1,0 +1,125 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#ADD8E6"
+    tools:context="com.example.howkum.iumwsms.StudentSignUpPage">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Sign Up"
+        android:id="@+id/textView21"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/signup_name_btn"
+        android:layout_below="@+id/textView21"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp"
+
+        android:text="Name"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/signup_passport_btn"
+        android:layout_below="@+id/signup_name_btn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/signup_name_btn"
+        android:layout_alignEnd="@+id/signup_name_btn"
+        android:layout_marginTop="00dp"
+        android:text="Passport No" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/signup_id_btn"
+        android:layout_below="@+id/signup_passport_btn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="00dp"
+        android:layout_alignRight="@+id/signup_passport_btn"
+        android:layout_alignEnd="@+id/signup_passport_btn"
+        android:text="Student ID" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/signup_homeno_btn"
+        android:layout_below="@+id/signup_id_btn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="00dp"
+        android:layout_alignRight="@+id/signup_id_btn"
+        android:layout_alignEnd="@+id/signup_id_btn"
+        android:text="Home No" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/signup_mobile_btn"
+        android:layout_below="@+id/signup_homeno_btn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="00dp"
+        android:layout_alignRight="@+id/signup_homeno_btn"
+        android:layout_alignEnd="@+id/signup_homeno_btn"
+        android:text="Mobile No" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/signup_enroll_btn"
+        android:layout_below="@+id/signup_mobile_btn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="00dp"
+        android:layout_alignRight="@+id/signup_mobile_btn"
+        android:layout_alignEnd="@+id/signup_mobile_btn"
+        android:text="Enroll for Semester" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/signup_intake_btn"
+        android:layout_below="@+id/signup_enroll_btn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="00dp"
+        android:layout_alignRight="@+id/signup_enroll_btn"
+        android:layout_alignEnd="@+id/signup_enroll_btn"
+        android:text="Intake" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/signup_password_btn"
+        android:layout_below="@+id/signup_intake_btn"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="00dp"
+        android:layout_alignRight="@+id/signup_intake_btn"
+        android:layout_alignEnd="@+id/signup_intake_btn"
+        android:text="Password" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SignUp"
+        android:id="@+id/signup_student_btn"
+        android:layout_below="@+id/signup_password_btn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="00dp"/>
+
+</RelativeLayout>

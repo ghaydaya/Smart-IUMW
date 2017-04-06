@@ -1,0 +1,1 @@
+INSERT INTO `student` (`student_name`, `passport`, `student_id`, `home_no`, `mobile_no`, `semester_enroll`, `intake`, `password`) VALUES ('a', 'a', 'super_temp', 'a', 'a', 'a', 'a', 'a');

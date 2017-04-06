@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#ADD8E6"
+    tools:context="com.example.howkum.iumwsms.StartUpRoleSelect">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Select Role"
+        android:id="@+id/textView20p"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="41dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student"
+        android:id="@+id/student_selector_btnp"
+        android:layout_below="@+id/textView20p"
+        android:layout_marginTop="41dp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Program Leader"
+        android:id="@+id/pl_role_selector_btnp"
+        android:layout_marginTop="21dp"
+        android:layout_below="@+id/student_selector_btnp"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dean"
+        android:id="@+id/dean_selector_btnp"
+        android:layout_below="@+id/pl_role_selector_btnp"
+        android:layout_marginTop="21dp"
+        android:layout_alignLeft="@+id/student_selector_btnp"
+        android:layout_alignStart="@+id/student_selector_btnp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Registry"
+        android:id="@+id/registry_selector_btnp"
+        android:layout_below="@+id/dean_selector_btnp"
+        android:layout_alignLeft="@+id/dean_selector_btnp"
+        android:layout_marginTop="21dp"
+        android:layout_alignStart="@+id/dean_selector_btnp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Admin"
+        android:id="@+id/button2"
+        android:layout_marginTop="21dp"
+        android:layout_below="@+id/registry_selector_btnp"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

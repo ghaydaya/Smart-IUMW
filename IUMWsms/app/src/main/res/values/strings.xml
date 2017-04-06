@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Smart IUMW</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_start_page">StartPage</string>
+    <string name="title_activity_student_home">Student_home</string>
+    <string name="title_activity_select_semister">SelectSemister</string>
+    <string name="title_activity_add_subject">AddSubject</string>
+    <string name="title_activity_admin_home">AdminHome</string>
+    <string name="title_activity_pending_new_student">PendingNewStudent</string>
+    <string name="title_activity_remove_student">RemoveStudent</string>
+    <string name="title_activity_add_semester">AddSemester</string>
+    <string name="title_activity_program_leader_home">ProgramLeaderHome</string>
+    <string name="title_activity_edit_sub_details">EditSubDetails</string>
+    <string name="title_activity_see_sub_detail">SeeSubDetail</string>
+    <string name="title_activity_dean_home">DeanHome</string>
+    <string name="title_activity_approve_registration">ApproveRegistration</string>
+    <string name="title_activity_sign_up_role_selction">SignUpRoleSelction</string>
+    <string name="title_activity_student_sign_up_page">StudentSignUpPage</string>
+    <string name="title_activity_sign_up">SignUp</string>
+    <string name="title_activity_see_student_details">SeeStudentDetails</string>
+    <string name="title_activity_see_one_full">SeeOneFull</string>
+    <string name="title_activity_courses_of_xs">CoursesOfXs</string>
+    <string name="title_activity_edit_one_sub">EditOneSub</string>
+    <string name="title_activity_registry_home">RegistryHome</string>
+    <string name="title_activity_start_up_role_select">StartUpRoleSelect</string>
+    <string name="title_activity_user_sign_up">UserSignUp</string>
+</resources>
